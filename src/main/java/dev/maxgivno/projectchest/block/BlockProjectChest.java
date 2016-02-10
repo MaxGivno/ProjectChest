@@ -7,6 +7,7 @@ public class BlockProjectChest extends BlockBase {
 
     public BlockProjectChest() {
         super(Material.wood);
+        this.setUnlocalizedName("projectchest");
         this.setCreativeTab(CreativeTab.PCH_TAB);
     }
 }

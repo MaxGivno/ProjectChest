@@ -10,6 +10,6 @@ public class ModBlocks {
     public static final BlockBase projectChest = new BlockProjectChest();
 
     public static void init() {
-        GameRegistry.registerBlock(projectChest, "projectChest");
+        GameRegistry.registerBlock(projectChest, "projectchest");
     }
 }
