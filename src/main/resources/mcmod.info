@@ -1,0 +1,16 @@
+[
+{
+  "modid": "projectchest",
+  "name": "Project Chest",
+  "description": "Tis mod provide a chest to organize your current project.",
+  "version": "0.0.1",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["MaxGivno"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
