@@ -1,6 +1,6 @@
 package dev.maxgivno.projectchest.inventory;
 
-import dev.maxgivno.projectchest.tileentity.TileEntityInventoryBasic;
+import dev.maxgivno.projectchest.tileentity.TileEntityBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
@@ -10,7 +10,7 @@ import net.minecraft.item.ItemStack;
 public abstract class ContainerBase extends Container {
 
     // Stores a reference to the tile entity instance for later use
-    private TileEntityInventoryBasic tileEntityInventoryBasic;
+    private TileEntityBase tileEntityInventoryBasic;
 
     // must assign a slot number to each of the slots used by the GUI.
     // For this container, we can see both the tile inventory's slots as well as the player inventory slots and the hotbar.
@@ -29,7 +29,7 @@ public abstract class ContainerBase extends Container {
     private final int TE_INVENTORY_FIRST_SLOT_INDEX = VANILLA_FIRST_SLOT_INDEX + VANILLA_SLOT_COUNT;
     private final int TE_INVENTORY_SLOT_COUNT = 9;
 
-    public ContainerBase(InventoryPlayer invPlayer, TileEntityInventoryBasic tileEntityInventoryBasic) {
+    public ContainerBase(InventoryPlayer invPlayer, TileEntityBase tileEntityInventoryBasic) {
         this.tileEntityInventoryBasic = tileEntityInventoryBasic;
 
         final int SLOT_X_SPACING = 18;
