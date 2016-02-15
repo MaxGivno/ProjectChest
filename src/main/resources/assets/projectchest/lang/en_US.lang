@@ -1,1 +1,5 @@
+#Blocks
 tile.projectchest.name=Project Chest
+
+#Creative Tabs
+itemGroup.projectchest=Project Chest
