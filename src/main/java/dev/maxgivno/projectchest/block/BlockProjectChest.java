@@ -12,5 +12,8 @@ public class BlockProjectChest extends BlockBase {
         this.setCreativeTab(CreativeTab.PCH_TAB);
     }
 
-
+    @Override
+    public int getRenderType() {
+        return 2;
+    }
 }

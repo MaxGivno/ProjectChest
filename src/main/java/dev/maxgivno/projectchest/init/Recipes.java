@@ -13,6 +13,6 @@ public class Recipes {
     }
 
     public static void initModRecipes(){
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.projectChest), "www", "wqw", "www", 'w', "plankWood", 'q', Items.writable_book));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.projectchest), "www", "wqw", "www", 'w', "plankWood", 'q', Items.writable_book));
     }
 }
